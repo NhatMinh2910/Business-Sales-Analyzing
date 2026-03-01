@@ -1,1 +1,207 @@
 # Business-Sales-Analyzing
+**Executive Summary**
+
+This project analyses product-level sales data from a global fashion brand (Zara), sourced from Kaggle, with the objective of identifying the key factors that influence **sales volume**. Each record in the dataset represents a single product’s sales volume and includes attributes related to product positioning, pricing, promotions, seasonality, and product characteristics. Understanding how these variables affect sales volume enables more effective decisions in merchandising, pricing strategy, and marketing execution.
+
+The analysis focuses on evaluating the impact of three primary dimensions:
+
+1. **Commercial and marketing factors** (price, promotion status, seasonal labeling, product position),
+1. **Product attributes** (category, material, origin, brand-related features), and
+1. **Merchandising context** (section placement and season alignment).
+
+Through systematic exploratory data analysis and comparative evaluation, the project identifies patterns and relationships between these attributes and observed sales volume. 
+
+Key findings include:
+
+- Tóm tắt insights tìm dc
+
+The outcome of this project is a set of **actionable, data-driven insights** that explain what drives sales volume at the product level. These insights can be directly applied to improve sales effectiveness by optimizing pricing strategies, prioritizing promotional efforts, refining product assortment, and enhancing product placement decisions. Overall, the project demonstrates how analytical reasoning and structured data analysis can support commercial decision-making in a real-world retail context.
+
+**Project Objectives**
+
+- Analyze historical sales data to understand overall performance and key drivers.
+- Segment customers and products to uncover purchasing behaviour patterns.
+- Identify trends, seasonality, and anomalies in sales.
+- Build a demand forecasting model to estimate future sales.
+- Present insights through a clear and automated dashboard.
+
+**Dataset Description**
+
+The dataset consists of the following attributes:
+
+- **Product identifiers and positioning**: Product ID, Product Position
+- **Marketing attributes**: Promotion, Seasonal
+- **Product characteristics**: Product Category, Brand, Name, Description, Material, Origin
+- **Sales-related variables**: Sales Volume, Price, Currency
+- **Additional metadata**: URL, Terms, Section, Season
+
+Each record represents a **single product**, along with its associated sales volume and contextual information.
+
+**Methodology**
+
+1. ***Data Pre-Processing***
+
+**Columns name standardization**
+
+**Step Description**
+
+All column names were standardized by:
+
+- Removing leading/trailing spaces
+- Converting text to lowercase
+- Replacing spaces with underscores
+
+**Purpose**
+
+- Ensures consistency across the dataset
+- Prevents errors during coding and analysis
+- Improves readability and maintainability of scripts
+
+**Business Value**
+
+Standardized naming conventions are critical in collaborative environments and reduce the risk of misreferencing variables during analysis.
+
+**Data type validation and conversion**
+
+**Step Description**
+
+Each column was reviewed to ensure its data type matched its intended business meaning:
+
+- Numeric fields (e.g., sales volume, price, product position) were converted to numeric types
+- Non-convertible values were coerced into missing values
+
+**Purpose**
+
+- CSV files often store numeric data as text
+- Incorrect data types lead to inaccurate aggregations and calculations
+
+**Business Value**
+
+Accurate data types ensure that sales metrics, rankings, and summaries reflect true business performance.
+
+**Handling missing values**
+
+**Step Description**
+
+The proportion of missing values was calculated for each column.\
+` `Missing values were handled based on business logic rather than arbitrary imputation.
+
+**Handling Strategy**
+
+- **Critical identifiers (Product ID)**: Rows with missing values were removed
+- **Categorical attributes (Brand, Material, Origin)**: Filled with placeholders such as *“Unknown”* or *“Not specified”*
+- **Numeric sales-related fields**: Handled conservatively to avoid bias
+
+**Purpose**
+
+- Prevents distortion of sales metrics
+- Preserves interpretability of categorical data
+
+**Business Value**
+
+Proper missing-value handling ensures that insights are not driven by artifacts of incomplete data.
+
+**Detect duplicates**
+
+**Step Description**
+
+Duplicate entries were identified using the Product ID as the primary key.
+
+**Purpose**
+
+- A product should appear only once in a product-level dataset
+- Duplicate records may result from data collection or integration errors
+
+
+**Business Value**
+
+Removing duplicates prevents double-counting products and ensures accurate product-level analysis.
+
+**Numeric value validation**
+
+**Step Description**
+
+Numeric fields such as price and sales volume were validated against basic business rules:
+
+- Prices must be greater than zero
+- Sales volume must be non-negative
+
+Outliers were examined using descriptive statistics.
+
+**Purpose**
+
+- Detects data entry or system errors
+- Prevents unrealistic values from skewing analysis
+
+**Business Value**
+
+Ensures financial metrics reflect realistic business scenarios and supports reliable KPI reporting.
+
+**Promotion and seasonal field normalization**
+
+**Step Description**
+
+Promotion and seasonal indicators were standardized into boolean values.
+
+**Purpose**
+
+- These fields often appear in inconsistent textual formats (e.g., “Yes”, “yes”, “1”, “True”)
+- Boolean normalization enables accurate filtering and comparison
+
+**Business Value**
+
+Accurate promotion indicators are essential for evaluating marketing effectiveness.
+
+**Categorical cleaning**
+
+**Step Description**
+
+Categorical fields (Product Category, Brand, Section, Season) were normalized by:
+
+- Converting text to lowercase
+- Removing unnecessary whitespace
+
+**Purpose**
+
+- Prevents artificial category splitting (e.g., “Men” vs “men”)
+- Ensures accurate grouping and aggregation
+
+**Business Value**
+
+Improves the reliability of category-based sales and product mix analysis.
+
+**Result**
+
+Through a structured preprocessing pipeline, the dataset was transformed from raw input into a high-quality, reliable data source.\
+` `The preprocessing steps ensured:
+
+- Logical consistency with business rules
+- Improved data quality and interpretability
+- Readiness for exploratory analysis, visualization, and reporting
+
+This systematic approach reflects best practices in data analysis and provides a strong foundation for subsequent business insights.
+
+1. ***Data Analysis***
+1. ***Modeling and Forecasting (Optional)***
+
+**Key Insights and Findings**
+
+**Visualization and Dashboard**
+
+**Tools and Techniques**
+
+- Programming Language: Python
+- Libraries: NumPy, Pandas, Matplotlib
+- Visualization: Power BI
+- Techniques: Exploratory Data Analysis, Feature Engineering, Machine Learning Forecasting
+
+**Business Impact**
+
+The insights from this analysis can help the business:
+
+- Optimize inventory levels and reduce stockouts or overstocking.
+- Improve sales planning through data-driven demand forecasts.
+- Focus marketing and sales efforts on high-performing products and regions.
+- Establish a repeatable analytics workflow for future sales analysis.
+
+**Conclusion**
