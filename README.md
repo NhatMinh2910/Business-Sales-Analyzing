@@ -39,52 +39,29 @@ Each record represents a **single product**, along with its associated sales vol
 
 ## Methodology
 
-### 1. *Data Pre-Processing*
+### 1. Data Pre-Processing
 
-**Columns name standardization**
+### *Columns name standardization*
 
-**Step Description**
-
-All column names were standardized by:
-
-- Removing leading/trailing spaces
-- Converting text to lowercase
-- Replacing spaces with underscores
-
-**Purpose**
+All column names were standardized to:
 
 - Ensures consistency across the dataset
 - Prevents errors during coding and analysis
 - Improves readability and maintainability of scripts
 
-**Business Value**
-
-Standardized naming conventions are critical in collaborative environments and reduce the risk of misreferencing variables during analysis.
-
-**Data type validation and conversion**
-
-**Step Description**
+### *Data type validation and conversion*
 
 Each column was reviewed to ensure its data type matched its intended business meaning:
 
 - Numeric fields (e.g., sales volume, price, product position) were converted to numeric types
 - Non-convertible values were coerced into missing values
 
-**Purpose**
-
-- CSV files often store numeric data as text
-- Incorrect data types lead to inaccurate aggregations and calculations
-
-**Business Value**
-
 Accurate data types ensure that sales metrics, rankings, and summaries reflect true business performance.
 
-**Handling missing values**
-
-**Step Description**
+### *Handling missing values*
 
 The proportion of missing values was calculated for each column.\
-` `Missing values were handled based on business logic rather than arbitrary imputation.
+Missing values were handled based on business logic rather than arbitrary imputation.
 
 **Handling Strategy**
 
@@ -92,34 +69,13 @@ The proportion of missing values was calculated for each column.\
 - **Categorical attributes (Brand, Material, Origin)**: Filled with placeholders such as *“Unknown”* or *“Not specified”*
 - **Numeric sales-related fields**: Handled conservatively to avoid bias
 
-**Purpose**
-
-- Prevents distortion of sales metrics
-- Preserves interpretability of categorical data
-
-**Business Value**
-
-Proper missing-value handling ensures that insights are not driven by artifacts of incomplete data.
-
-**Detect duplicates**
-
-**Step Description**
+### *Detect duplicates*
 
 Duplicate entries were identified using the Product ID as the primary key.
 
-**Purpose**
-
-- A product should appear only once in a product-level dataset
-- Duplicate records may result from data collection or integration errors
-
-
-**Business Value**
-
 Removing duplicates prevents double-counting products and ensures accurate product-level analysis.
 
-**Numeric value validation**
-
-**Step Description**
+### *Numeric value validation*
 
 Numeric fields such as price and sales volume were validated against basic business rules:
 
@@ -128,52 +84,25 @@ Numeric fields such as price and sales volume were validated against basic busin
 
 Outliers were examined using descriptive statistics.
 
-**Purpose**
-
-- Detects data entry or system errors
-- Prevents unrealistic values from skewing analysis
-
-**Business Value**
-
-Ensures financial metrics reflect realistic business scenarios and supports reliable KPI reporting.
-
-**Promotion and seasonal field normalization**
-
-**Step Description**
+### *Promotion and seasonal field normalization*
 
 Promotion and seasonal indicators were standardized into boolean values.
 
-**Purpose**
-
-- These fields often appear in inconsistent textual formats (e.g., “Yes”, “yes”, “1”, “True”)
-- Boolean normalization enables accurate filtering and comparison
-
-**Business Value**
-
 Accurate promotion indicators are essential for evaluating marketing effectiveness.
 
-**Categorical cleaning**
-
-**Step Description**
+### *Categorical cleaning*
 
 Categorical fields (Product Category, Brand, Section, Season) were normalized by:
 
 - Converting text to lowercase
 - Removing unnecessary whitespace
 
-**Purpose**
-
-- Prevents artificial category splitting (e.g., “Men” vs “men”)
-- Ensures accurate grouping and aggregation
-
-**Business Value**
-
 Improves the reliability of category-based sales and product mix analysis.
 
-**Result**
+### *Result*
 
 Through a structured preprocessing pipeline, the dataset was transformed from raw input into a high-quality, reliable data source.\
-` `The preprocessing steps ensured:
+The preprocessing steps ensured:
 
 - Logical consistency with business rules
 - Improved data quality and interpretability
@@ -181,23 +110,27 @@ Through a structured preprocessing pipeline, the dataset was transformed from ra
 
 This systematic approach reflects best practices in data analysis and provides a strong foundation for subsequent business insights.
 
-### 2. *Data Analysis*
+### 2. Data Analysis
 
 After completing data cleaning, validation, and feature engineering, the dataset was analyzed using a structured, business-oriented analytical framework implemented in a multi-page Power BI report. The objective of the analysis was to understand sales volume patterns in the fashion retail context, with a specific focus on gender differences and the influence of seasonal and commercial factors. The analytical process was intentionally divided into four pages, each answering a distinct business question and progressively deepening insight.
 
-**Page 1 – Executive Overview**
+### *Page 1 – Executive Overview*
+
 The first page provides a high-level snapshot of overall sales performance. Key performance indicators (KPIs), including total sales volume, sales contribution by gender, and the proportion of seasonal products, were used to establish context and scale. This overview enables stakeholders to quickly understand the size of the business and identify which customer segment contributes most to overall sales. Importantly, total sales metrics were designed to remain independent of gender filters, ensuring consistent executive-level reporting while allowing deeper segmentation in subsequent analyses.
 
-**Page 2 – Gender-Based Sales Analysis**
+### *Page 2 – Gender-Based Sales Analysis*
+
 The second page focuses on understanding how sales volume differs between male and female segments. Beyond comparing total sales, distributional analysis was applied to assess whether sales are driven by a small number of high-performing products or by consistent performance across product assortments. Additional visuals examine the relationship between sales volume, pricing, promotions, and product positioning across genders. This page highlights structural differences in purchasing behaviour and sensitivity to commercial levers, providing actionable insights for marketing and product strategy.
 
-**Page 3 – Seasonal and Contextual Analysis**
+### *Page 3 – Seasonal and Contextual Analysis*
+
 The third page explores the role of contextual factors, particularly seasonality. Sales volume is analyzed across seasonal versus non-seasonal products, individual seasons, and grouped terms or conditions associated with sales. This analysis clarifies how demand fluctuates throughout the year and whether seasonal strategies affect male and female customers differently. By separating contextual observation from causality, this page establishes the environmental conditions under which sales performance tends to improve or decline.
 
-**Summary**
+### *Summary*
+
 Overall, the three-page Power BI report follows a clear analytical storyline: starting from a general overview, moving through segmentation and contextual understanding. This structure ensures that insights are both intuitive for stakeholders and analytically rigorous, transforming cleaned data into meaningful business intelligence and actionable recommendations.
 
-### 3. *Modeling and Forecasting (Optional)*
+### 3. Modeling and Forecasting (Optional)
 
 ## Key Insights and Findings
 
