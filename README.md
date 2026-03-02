@@ -171,6 +171,15 @@ The comparison between seasonal and non-seasonal sales volume shows a relatively
 
 
 ## Visualization and Dashboard
+### Page 1: Executive Overview
+
+<img width="975" height="547" alt="image" src="https://github.com/user-attachments/assets/7e3dd2ea-c6e2-4e19-ad26-264c6abb8d89" />
+
+### Page 2: Gender Sales Analysis
+
+<img width="975" height="546" alt="image" src="https://github.com/user-attachments/assets/7afc0ad6-c715-44a1-9a56-e51d651fa286" />
+
+
 
 ## Tools and Techniques
 
