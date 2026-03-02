@@ -132,6 +132,16 @@ Overall, the three-page Power BI report follows a clear analytical storyline: st
 
 ### 3. Modeling and Forecasting (Optional)
 
+## Visualization and Dashboard 🌟
+### Page 1: Executive Overview
+
+<img width="975" height="547" alt="image" src="https://github.com/user-attachments/assets/7e3dd2ea-c6e2-4e19-ad26-264c6abb8d89" />
+
+### Page 2: Gender Sales Analysis
+
+<img width="975" height="546" alt="image" src="https://github.com/user-attachments/assets/7afc0ad6-c715-44a1-9a56-e51d651fa286" />
+
+
 ## Key Insights and Findings 🌟
 
 ### *Page 1: Executive Overview*
@@ -168,18 +178,38 @@ Overall, the significantly higher sales volume contribution from female customer
 **Seasonal vs Non-Seasonal Sales**
 
 The comparison between seasonal and non-seasonal sales volume shows a relatively balanced distribution, with no substantial dominance from either group. The difference is not large enough at this stage to suggest a strong seasonal dependency or a compelling standalone narrative.
+### *Page 2: Gender Sales Analysis*
+**Product Category Performance**
 
+Across both genders, the ranking of best-selling product categories is highly consistent, indicating similar consumption preferences between male and female customers. The sales volume ranking from highest to lowest is:
 
-## Visualization and Dashboard 🌟
-### Page 1: Executive Overview
+***Jackets → Sweaters → T-shirts → Shoes → Jeans***
 
-<img width="975" height="547" alt="image" src="https://github.com/user-attachments/assets/7e3dd2ea-c6e2-4e19-ad26-264c6abb8d89" />
+This consistency suggests that core product categories drive demand for both genders. From a business perspective, the brand should continue to prioritize investment and innovation in these key categories, while also identifying underperforming categories (e.g. jeans) for potential improvement or repositioning.
 
-### Page 2: Gender Sales Analysis
+Despite similar category preferences, female sales volume remains approximately twice that of male sales across all categories, mirroring the overall gender sales split. This indicates that the difference lies in purchase intensity, not in fundamentally different product choices.
 
-<img width="975" height="546" alt="image" src="https://github.com/user-attachments/assets/7afc0ad6-c715-44a1-9a56-e51d651fa286" />
+**Product Position Impact**
 
+Products placed in aisle positions generate the highest sales volume, while items located at the front of the store perform the weakest for both genders. This highlights the importance of in-store placement strategy. High-demand or strategic products should be prioritized for aisle placement to maximize visibility and conversion, while front-of-store areas may require stronger visual merchandising or promotional support.
 
+**Promotion Sensitivity**
+
+Promotions have a stronger impact on female customers than on male customers. Female purchase activity under promotion is notably higher, suggesting greater sensitivity to promotional cues and emotionally driven buying behavior.
+
+This observation aligns with existing consumer behavior research, which frequently finds that female shoppers respond more strongly to discounts, limited-time offers, and promotional framing. From a strategic standpoint, promotion-led campaigns are likely to yield higher returns when targeted toward female customers, while male-focused strategies may benefit more from value-driven or functional messaging.
+
+**Price vs Sales Volume (Scatter Plot Insight)**
+
+The scatter plot reveals that the highest sales volumes for both genders are concentrated around the $20 price point, identifying this range as a clear mass-market sweet spot. Within this price range, female sales volume is approximately twice that of male sales, reinforcing the earlier insight that female demand is stronger at accessible price levels.
+
+However, at higher price points (above $90), the sales volume gap between genders narrows significantly, with male and female purchases becoming nearly equivalent. This suggests that:
+
+At lower prices, purchases are more frequent and emotion-driven, favoring female customers.
+
+At higher prices, purchases are more deliberate and need-based, reducing gender differences in buying behavior.
+
+This insight implies that premium-priced products can be positioned as gender-neutral offerings, while mid- to low-priced products should primarily be optimized for the female segment.
 
 ## Tools and Techniques 🌟
 
