@@ -134,6 +134,42 @@ Overall, the three-page Power BI report follows a clear analytical storyline: st
 
 ## Key Insights and Findings
 
+### *Page 1: Executive Overview*
+**Gender Contribution to Total Sales Volume**
+
+The Executive Overview reveals a clear dominance of female customers in overall sales performance. Female customers contribute approximately 67.8% of total sales volume, which is nearly double the contribution from male customers (32.2%). This indicates that sales volume is primarily driven by female demand within the dataset.
+To interpret this result meaningfully, it is important to consider the underlying business context of the data source. Two plausible scenarios can be examined:
+
+•	**Scenario 1**: Female-oriented product assortment
+The product portfolio may contain a higher number of female-focused items, both in terms of variety and quantity. In this case, the observed sales imbalance is structurally driven by supply-side decisions, where the brand or retailer prioritizes female fashion categories.
+
+•	**Scenario 2**: Balanced assortment, demand-driven difference
+Alternatively, if male and female product assortments are relatively balanced, the difference in sales volume would indicate stronger demand from female customers. This would suggest that female shoppers are either purchasing more frequently, buying higher volumes per transaction, or being more responsive to fashion-related stimuli.
+Since this is a hypothetical dataset rather than a real operational project, both scenarios are considered valid analytical paths. In practice, further investigation into product mix, inventory allocation, and merchandising strategy would be required to validate the correct interpretation.
+
+**Behavioral and Contextual Interpretation**
+
+From a consumer behavior perspective, higher fashion-related purchase activity among female customers is consistent with well-established market patterns. Female consumers typically exhibit higher engagement with apparel shopping, driven by greater variety in fashion cycles, trends, and usage occasions.\
+If the data originates from online shopping, external benchmarks on gender-based e-commerce participation could be used to assess whether a 67% female contribution is within a reasonable range. If the figure aligns with industry norms, it would further validate the dataset’s representativeness.\
+If the data originates from in-store purchases, additional behavioral factors may apply. For example, studies often show that female customers shop alone or with other female companions more frequently, while shopping trips involving male companions may present opportunities for cross-selling. In such a context, merchandising strategies such as:
+- Placing selected men’s fashion items near women’s sections,
+-	Promoting couple or matching outfits,
+-	Highlighting visually appealing male items (e.g., jackets, shoes)
+
+could help increase male product exposure and impulse-driven purchases. Essential male items, which are typically need-based rather than emotion-driven, are less dependent on such strategies.
+
+**Strategic Implications**
+
+Overall, the significantly higher sales volume contribution from female customers appears reasonable and expected within a fashion retail context. The strategic priority should therefore be twofold:
+
+- Maintain and strengthen the female segment, which represents the core revenue driver.
+-	Gradually develop male-focused strategies, particularly through cross-merchandising and targeted product placement, to improve male sales without disrupting the dominant female segment.
+
+**Seasonal vs Non-Seasonal Sales**
+
+The comparison between seasonal and non-seasonal sales volume shows a relatively balanced distribution, with no substantial dominance from either group. The difference is not large enough at this stage to suggest a strong seasonal dependency or a compelling standalone narrative.
+
+
 ## Visualization and Dashboard
 
 ## Tools and Techniques
