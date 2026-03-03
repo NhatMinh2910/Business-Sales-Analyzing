@@ -13,7 +13,10 @@ Through systematic exploratory data analysis and comparative evaluation, the pro
 
 Key findings include:
 
-- Tóm tắt insights tìm dc
+- Female customers drive nearly 70% of total sales volume, making them the core revenue segment and the primary focus for merchandising and marketing strategies.
+- Male sales volume is lower but shows growth potential, particularly through targeted promotion and cross-merchandising rather than essential, need-based products.
+- Female sales performance is more consistent across products, indicating broader demand rather than reliance on a small number of top-selling items.
+- Price and promotion sensitivity differ by gender, suggesting that differentiated pricing and promotional strategies could improve overall sales efficiency.
 
 The outcome of this project is a set of **actionable, data-driven insights** that explain what drives sales volume at the product level. These insights can be directly applied to improve sales effectiveness by optimizing pricing strategies, prioritizing promotional efforts, refining product assortment, and enhancing product placement decisions. Overall, the project demonstrates how analytical reasoning and structured data analysis can support commercial decision-making in a real-world retail context.
 
@@ -40,6 +43,8 @@ Each record represents a **single product**, along with its associated sales vol
 ## Methodology 🌟
 
 ### 1. Data Pre-Processing
+
+All of the data handling process mentioned below are handled using Python Pandas, the Python notebook is included in the repository.
 
 ### *Columns name standardization*
 
