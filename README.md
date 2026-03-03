@@ -135,8 +135,6 @@ The third page explores the role of contextual factors, particularly seasonality
 
 Overall, the three-page Power BI report follows a clear analytical storyline: starting from a general overview, moving through segmentation and contextual understanding. This structure ensures that insights are both intuitive for stakeholders and analytically rigorous, transforming cleaned data into meaningful business intelligence and actionable recommendations.
 
-### 3. Modeling and Forecasting (Optional)
-
 ## Visualization and Dashboard 🌟
 ### Page 1: Executive Overview
 
@@ -146,6 +144,9 @@ Overall, the three-page Power BI report follows a clear analytical storyline: st
 
 <img width="975" height="546" alt="image" src="https://github.com/user-attachments/assets/7afc0ad6-c715-44a1-9a56-e51d651fa286" />
 
+### Page 3: Season Factors Analysis
+
+<img width="1143" height="640" alt="image" src="https://github.com/user-attachments/assets/497405d3-566a-4ec3-9f7f-b6f16a1c7d46" />
 
 ## Key Insights and Findings 🌟
 
@@ -215,6 +216,7 @@ At lower prices, purchases are more frequent and emotion-driven, favoring female
 At higher prices, purchases are more deliberate and need-based, reducing gender differences in buying behavior.
 
 This insight implies that premium-priced products can be positioned as gender-neutral offerings, while mid- to low-priced products should primarily be optimized for the female segment.
+### *Page 3: Seasonal Factors Analysis*
 
 ## Tools and Techniques 🌟
 
