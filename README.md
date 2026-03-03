@@ -17,6 +17,9 @@ Key findings include:
 - Male sales volume is lower but shows growth potential, particularly through targeted promotion and cross-merchandising rather than essential, need-based products.
 - Female sales performance is more consistent across products, indicating broader demand rather than reliance on a small number of top-selling items.
 - Price and promotion sensitivity differ by gender, suggesting that differentiated pricing and promotional strategies could improve overall sales efficiency.
+- Autumn and Winter account for the majority of sales volume, with Autumn slightly outperforming Winter due to early purchasing behavior as customers prepare for colder seasons.
+- Gender has minimal impact on seasonal purchasing behavior, indicating that seasonal demand is driven primarily by product relevance rather than customer demographics.
+- Promotions are significantly more effective for seasonal products, suggesting they should be strategically timed around peak seasons to maximize sales impact.
 
 The outcome of this project is a set of **actionable, data-driven insights** that explain what drives sales volume at the product level. These insights can be directly applied to improve sales effectiveness by optimizing pricing strategies, prioritizing promotional efforts, refining product assortment, and enhancing product placement decisions. Overall, the project demonstrates how analytical reasoning and structured data analysis can support commercial decision-making in a real-world retail context.
 
@@ -217,6 +220,18 @@ At higher prices, purchases are more deliberate and need-based, reducing gender 
 
 This insight implies that premium-priced products can be positioned as gender-neutral offerings, while mid- to low-priced products should primarily be optimized for the female segment.
 ### *Page 3: Seasonal Factors Analysis*
+
+Based on the seasonal sales distribution, **Autumn** and **Winter** are the two strongest seasons, contributing approximately 36% and 27% of total sales volume, respectively, while Summer records the lowest sales. This pattern aligns well with findings from Page 2, where jackets and sweaters are the top-selling categories, both of which are primarily autumn–winter products.
+
+Interestingly, Autumn slightly outperforms Winter in total sales volume. A plausible explanation is that customers tend to purchase early in late Autumn to prepare for Winter, leading to higher accumulated sales during the Autumn period despite jackets being worn more frequently in Winter.
+
+From a strategic perspective, this seasonality pattern provides clear guidance for **product planning** and **inventory management**. The business should prioritize launching new outerwear collections in Autumn, limit production volumes during Summer to reduce inventory risk, and use Spring and Summer promotions to stimulate demand during lower sales periods.
+
+The seasonal purchase ratio between **male and female customers is nearly identical**, suggesting that **gender does not significantly influence whether customers buy seasonal products**. This indicates that seasonal demand is driven more by product utility and climate factors than by customer demographics.
+
+Promotion effectiveness shows a clear interaction with seasonality. **Seasonal products are significantly more likely to be purchased when promotions are active**, whereas non-seasonal products rely less on promotional incentives. This suggests that **promotions should be strategically timed and concentrated on seasonal items to maximize sales impact.**
+
+Finally, category-level analysis confirms that **most products perform best in their intended seasons**, with **jackets and sweaters exhibiting the strongest seasonal dependency**. The large sales gap between seasonal and non-seasonal periods for these categories highlights their high sensitivity to seasonal timing, reinforcing the importance of accurate season-based assortment planning.
 
 ## Tools and Techniques 🌟
 
